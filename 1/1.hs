@@ -1,5 +1,5 @@
 partOne :: [String] -> Integer
-solution xs = foldl (\acc x -> acc + myRead x) 0 xs
+partOne xs = foldl (\acc x -> acc + myRead x) 0 xs
 
 myRead :: String -> Integer
 myRead (x:xs) = if x == '+'
